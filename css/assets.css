@@ -1,0 +1,193 @@
+/* DIVIDERS START */
+
+.divider {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #5F6368;
+    opacity: 0.4;
+}
+
+.v-divider{
+    width: 1px;
+    height: 100%;
+    border: none;
+    background-color: #5F6368;
+    opacity: 0.4;
+}
+/* DIVIDERS END */
+
+/* BACKGROUNDS START */
+
+.purple-bg {
+    background-color: #980091;
+}
+
+.blue-bg{
+    background-color: #407EE8;
+}
+
+.yellow-bg{
+    background-color: #F1BC29;
+}
+
+.green-bg{
+    background-color: #0F9D58;
+}
+
+.red-bg{
+    background-color: #E93535;
+}
+
+/* BACKGROUNDS END */
+
+/* BUTTONS START */
+
+.btn-white-purple {
+    background-color: white;
+    border-radius: 3px;
+    color: #980091;
+    padding: 0.3rem 1.5rem;
+}
+
+.btn-white-blue {
+    background-color: white;
+    border-radius: 3px;
+    color: #407EE8;
+    padding: 0.3rem 1.5rem;
+}
+
+.btn-white-red {
+    background-color: white;
+    border-radius: 3px;
+    color: #E93535;
+    padding: 0.3rem 1.5rem;
+}
+
+.btn-white-green {
+    background-color: white;
+    border-radius: 3px;
+    color: #0F9D58;
+    padding: 0.3rem 1.5rem;
+}
+
+.btn-white-yellow {
+    background-color: white;
+    border-radius: 3px;
+    color: #F1BC29;
+    padding: 0.3rem 1.5rem;
+}
+
+.btn-red-white{
+    background-color: #E93535;
+    border-radius: 3px;
+    color: white;
+    padding: 0.3rem 1.5rem;
+}
+
+.btn-yellow-white{
+    background-color: #F1BC29;
+    border-radius: 3px;
+    color: white;
+    padding: 0.3rem 1.5rem;
+}
+
+.btn-green-white{
+    background-color: #0F9D58;
+    border-radius: 3px;
+    color: white;
+    padding: 0.3rem 1.5rem;
+}
+
+.btn-purple-white{
+    background-color: #980091;
+    border-radius: 3px;
+    color: white;
+    padding: 0.3rem 1.5rem;
+}
+
+/* BUTTONS END */
+
+/* TEXT HOVER START */
+
+.green-hover:hover{
+    color: #0F9D58;
+}
+
+.red-hover:hover{
+    color: #E93535;
+}
+
+.blue-hover:hover{
+    color: #407EE8;
+}
+
+.yellow-hover:hover{
+    color: #F1BC29;
+}
+
+.purple-hover:hover{
+    color: #980091;
+}
+
+.green-hover-border:hover{
+    border-bottom: 2px solid #0F9D58;
+}
+
+.red-hover-border:hover{
+    border-bottom: 2px solid #E93535;
+}
+
+.blue-hover-border:hover{
+    border-bottom: 2px solid #407EE8;
+}
+
+.yellow-hover-border:hover{
+    border-bottom: 2px solid #F1BC29;
+}
+
+.purple-hover-border:hover{
+    border-bottom: 2px solid #980091;
+}
+
+/* TEXT HOVER END */
+
+.hover-opacity:hover{
+    opacity: 0.9;
+    transition: 100ms;
+}
+
+#go-up{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border:2px solid white;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.current-page-purple{
+    border-bottom: 2px solid #980091;
+}
+.current-page-green{
+    border-bottom: 2px solid #0F9D58;
+}
+.current-page-red{
+    border-bottom: 2px solid #E93535;
+}
+.current-page-yellow{
+    border-bottom: 2px solid #F1BC29;
+}
+.current-page-blue{
+    border-bottom: 2px solid #407EE8;
+}

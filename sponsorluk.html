@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akdeniz Google DSC</title>
+    <link rel="shortcut icon" href="img/gdsc.png" type="image/x-icon">
+    <!-- Google Fonts START -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts END -->
+    <link rel="stylesheet" href="css/assets.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iletisim.css">
+    <link rel="stylesheet" media="(max-width:1100px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:450px)" href="css/mobile.css">
+    <style>
+        input[type="text"],
+        input[type="email"]{
+            border:none;
+            border-bottom: 1px solid #E93535;
+            outline: none;
+        }
+        textarea:focus{
+            outline-color: #E93535;
+        }
+        .header-item-img img{
+            width: 589px;
+        }
+        @media (max-width:1100px){
+            .header-item{
+                height: auto;
+                padding: 2.5rem;
+            }
+            .header-item-img img{
+                height: unset;
+                width: 100%;
+            }
+            section article{
+                margin:0;
+            }
+        }
+        @media (max-width: 450px){
+            .header-item{
+                padding: 2rem;
+            }
+            .header-item-img img{
+                height: unset;
+                width: 90%;
+                border:none;
+                box-shadow: none;
+                margin-bottom:1rem;
+            }
+            .header-item-article{
+                width:100%;
+            }
+            form, input[type="text"], textarea{
+                width: 100%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav id="main-nav">
+        <div id="nav-logo">
+            <a href="index.html"><img src="img/gdsc.png" alt="Google Developer Students Club" height="50px"></a>
+            <h1><a href="index.html">Akdeniz Google DSC</a></h1>
+        </div>
+        <ul id="nav-links">
+            <li><a href="blog.html" class="red-hover red-hover-border">Blog</a></li>
+            <li><a href="ekip.html" class="blue-hover blue-hover-border">Ekip</a></li>
+            <li><a href="etkinlikler.html" class="green-hover green-hover-border">Etkinlikler</a></li>
+            <li><a href="duyurular.html" class="yellow-hover yellow-hover-border">Duyurular</a></li>
+            <li><a href="iletisim.html" class="purple-hover purple-hover-border">İletişim</a></li>
+            <li><a href="sponsorluk.html" class="red-hover red-hover-border current-page-red">Bize Sponsor Ol!</a></li>
+        </ul>
+        <div id="nav-social">
+            <ul>
+                <li><a class="purple-hover" href="https://www.instagram.com/dscakdeniz/"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="blue-hover" href="https://www.linkedin.com/company/google-dsc-akdeniz-university/"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="divider"></div>
+    <header id="main-header">
+        <div class="header-item red-bg">
+            <article class="header-item-article">
+                <header>
+                    <h1>Sponsorluk 🤝🤝</h1>
+                </header>
+                <article>
+                    <p>
+                        GDSC Akdeniz ekibi olarak, GDG Antalya ile birlikte Simurg Cafe'de toplandık. Tanışma, kaynaşma
+                        ve sosyalleşme amacıyla organize ettiğimiz bu buluşmamızda, Baküs Sahne ekibinin tiyatrosunu da
+                        izleme fırsatı bulduk. Hem sosyal, hem de kültürel açıdan çok güzel bir gündü. Emeği geçen
+                        herkese teşekkür ederiz.
+                    </p>
+                </article>
+                <footer>
+                    <a href="#form" class="btn-white-red hover-opacity">Bize Sponsor Ol!</a>
+                </footer>
+            </article>
+            <div class="header-item-img">
+                <img src="img/deal.jpg" style="object-fit:cover;" alt="">
+            </div>
+        </div>
+    </header>
+    <section id="form">
+        <form action="">
+            <fieldset>
+                <label for="name">İsim</label><br>
+                <input type="text" name="name" placeholder="John Doe" required>
+            </fieldset>
+            <fieldset>
+                <label for="email">E-posta</label><br>
+                <input type="email" name="email" id="email" placeholder="example@service.com" required>
+            </fieldset>
+            <fieldset>
+                <label for="subject">Konu</label><br>
+                <input type="text" name="subject" placeholder="Sponsorluk konusu" required>
+            </fieldset>
+            <fieldset>
+                <label for="message">Mesaj</label><br>
+                <textarea name="message" id="message" cols="50" rows="15" placeholder="Mesajınızı giriniz."
+                    required></textarea>
+            </fieldset>
+            <fieldset id="btn-field">
+                <input type="submit" value="Gönder" style="background-color: #E93535;">
+            </fieldset>
+        </form>
+    </section>
+    <div class="divider"></div>
+    <footer id="main-footer">
+        <div class="d">
+            <h3>Etkinlikler</h3>
+            <ul>
+                <li>Henüz etkinlik düzenlenmedi.</li>
+            </ul>
+        </div>
+        <div class="v-divider"></div>
+        <div class="d">
+            <h3>Sosyal Medya</h3>
+            <ul>
+                <li><a class="purple-hover" href="https://www.instagram.com/dscakdeniz/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </a></li>
+                <li><a class="blue-hover" href="https://www.linkedin.com/company/google-dsc-akdeniz-university/"
+                        target="_blank">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="divider"></div>
+    <footer id="caption">
+        <p>
+            Akdeniz University Google Developer Students Club | 2022
+        </p>
+    </footer>
+    <a id="go-up" class="red-bg" href="#main-nav">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+</body>
+
+</html>

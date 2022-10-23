@@ -1,0 +1,14 @@
+.header-item {
+    height: 92vh;
+}
+
+.header-item-article {
+    align-self: unset;
+    margin-top: -10rem;
+}
+
+.team-title h1 {
+    margin: 0;
+    text-align: center;
+    padding: 1.25rem;
+}

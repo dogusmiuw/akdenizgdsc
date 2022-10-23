@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #5F6368;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+#main-nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 70%;
+}
+
+#nav-links li a {
+    padding: 0.5rem 0.8rem;
+}
+
+#nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 22%;
+}
+
+#nav-social ul {
+    list-style: none;
+    display: flex;
+}
+
+#nav-social ul li a {
+    padding: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.header-item {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.header-item-img {
+    width: 40%;
+}
+
+.header-item-img img {
+    height: 370px;
+    border: 10px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 15px rgba(255, 255, 255, 0.8);
+}
+
+.header-item-img img:not(img:hover) {
+    transition: 500ms;
+}
+
+.header-item-img img:hover {
+    transition: 500ms;
+    margin-bottom: 1rem;
+}
+
+.header-item-article {
+    width: 40%;
+    align-self: flex-start;
+    margin-top: 4rem;
+}
+
+.header-item-article h1 {
+    margin-bottom: 0;
+}
+
+.header-item-article article p {
+    text-align: justify;
+}
+
+.article-date {
+    opacity: 0.8;
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+section {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section article {
+    width: 40%;
+}
+
+section article h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+section .section-img img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+section .section-img img:hover {
+    height: 325px;
+    transition: 500ms;
+}
+
+section .section-img img:not(img:hover) {
+    transition: 500ms;
+}
+
+section:nth-child(even){
+    background-color: #F1F3F4;
+    flex-direction: row-reverse;
+}
+
+#main-footer {
+    height: 225px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d {
+    width: 25%;
+    height: 225px;
+    margin: 0 1rem;
+    padding: 1rem 3rem;
+}
+
+.d ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+#caption{
+    margin: 3rem 0;
+}
+
+#caption p{
+    text-align: center;
+}
