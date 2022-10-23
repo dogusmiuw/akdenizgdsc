@@ -1,1 +1,1 @@
-# akdenizgdsc
+# GDSC Akdeniz İnternet Sitesi
